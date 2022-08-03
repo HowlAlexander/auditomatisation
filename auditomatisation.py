@@ -22,7 +22,7 @@ def anamenu():
         os.system("pwd")
         print(" \033[1;91m Your current directory \033[1;m")
         print("\n \033[1;91m1-) Back to Main Menu \n 2-) Exit \033[1;m")
-        secimdonus = input("root""\033[1;91m@KernelBlog:~$\033[1;m ")
+        secimdonus = input("root""\033[1;91m@Howl:~$\033[1;m ")
         if secimdonus == "1":
             baslangic()
         if secimdonus == "2":
@@ -51,7 +51,7 @@ def logo():
   _| |(_)) | | ((_)((_)| \| | _((_)) ((_)_ ((_)_)
 / _` |/ -_)| |/ _ \(_-<| .` || '  \()/ _` || '_ \)
 \__,_|\___||_|\___//__/|_|\_||_|_|_| \__,_|| .__/
-  Emre Yılmaz (delosemre) - emreylmz.com |_| v2
+  HowlAlexander -  |_| v2
 \033[1;m """)
 
 
@@ -89,7 +89,7 @@ def baslangic():
     menu()
     print("   Enter one of the options.")
 
-    secim = input("root""\033[1;91m@emreylmzcom:~$\033[1;m ")
+    secim = input("root""\033[1;91m@Howl:~$\033[1;m ")
 
     if secim == "1":
         print(" Starting Default Scan...")
